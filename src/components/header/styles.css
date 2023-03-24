@@ -1,0 +1,47 @@
+.header--wrap {
+  background: #0067A3;
+  padding: 5px 0;
+}
+.header--user {
+  margin-left: auto;
+  position: relative;
+  z-index: 100;
+}
+.header--user-menu {
+  padding: 8px;
+  background: #ffffff;
+  min-width: 134px;
+  position: absolute;
+  top: calc(100% + 11px);
+  right: 0;
+  border-radius: 5px;
+}
+.header--user-menu:after {
+  content: "";
+  display: block;
+  width: 11px;
+  height: 11px;
+  transform: rotate(45deg);
+  background: #ffffff;
+  position: absolute;
+  top: -6px;
+  right: 39px;
+}
+.header--user-menu li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 3px;
+}
+.header--user-menu li:last-child {
+  margin-bottom: 0;
+}
+.header--user-menu li a {
+  color: #000000;
+  text-decoration: none;
+}
+.header--user-menu li a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */

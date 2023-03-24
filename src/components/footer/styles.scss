@@ -1,0 +1,40 @@
+.footer {
+  &--left {
+    @media screen and (max-width: 910px) {
+      width: 100%;
+      margin-bottom: 6px;
+    }
+
+    > div {
+      &:last-child {
+        margin-left: 36px;
+        @media screen and (max-width: 910px) {
+          margin-left: 16px;
+        }
+      }
+    }
+  }
+
+  &--wrap {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    background: #0067A3;
+    padding: 17px 0;
+    @media screen and (max-width: 910px) {
+      font-size: 16px;
+      line-height: 19px;
+    }
+    .container {
+      > div {
+        &:last-child {
+          margin-left: auto;
+          @media screen and (max-width: 910px) {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+}
